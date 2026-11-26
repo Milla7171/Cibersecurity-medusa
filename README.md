@@ -2,8 +2,6 @@
 //Explorando dentro do Virtual Box, utilizando o linux Kali e o Metasploit 2. Os ataques de REDES e suas vunerabilidades
 
 
-Primeiramente, gostaria de dizer que não me aprofundei muito mais do que o curso solicitou.Como iniciante gostaria de ter mais conhecimento de onde estou pisando. Fazer um estrago muito complexo e não saber consertar. 
-
 |DOWLOAD 
 
  Abaixei o Virtual Box e consecutivamente, o Kali linux e o Metasploit 
