@@ -5,11 +5,12 @@
 Primeiramente, gostaria de dizer que não me aprofundei muito mais do que o curso solicitou.Como iniciante gostaria de ter mais conhecimento de onde estou pisando. Fazer um estrago muito complexo e não saber consertar. 
 
 |DOWLOAD 
+
  Abaixei o Virtual Box e consecutivamente, o Kali linux e o Metasploit 
 
 Obs: mudei a configuração de REDE de ambos para (host,only).
 
-|DE COMEÇO|
+|DE COMEÇO
 
 Dentro do Metasploiot, me loguei com o login padrão. Sendo ele "msfadmin" o "user" quanto para a "senha".
 
@@ -41,7 +42,8 @@ echo -e "user\nmsfadmin\nadmin\nroot" > users.txt
 
 Criando três documentos de texto, onde terá os usuários e o outro as senhas.
 
-| UTILIZANDO A MEDUSA |
+| UTILIZANDO,A MEDUSA
+
 medusa -h 192.168.56.101 -U users.txt -P pass.txt -M ftp-t 6 
 
 Ela então faz o processo de ataque de rede. Buscando o [SUCCESS]. O qual será o user e a senha que estamos procurando.
@@ -57,7 +59,7 @@ De primera não temos a senha nem o login. E precisamos descubrir,como funciona 
 
 Com o  F12 indo de NETWORK e seguindo para o REQUEST dentro do próprio navegador .Temos acesso ao processo de segurança do site.
 
-| COM A MEDUSA 
+| DWA + MEDUSA 
 
 DENTRO DO TERMINAL 
 -m PAGE: '/dvwa/login.php'\
